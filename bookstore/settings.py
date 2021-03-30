@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bookstore_api.apps.BookstoreApiConfig',
-    'corsheaders',
+    'corsheaders'
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
