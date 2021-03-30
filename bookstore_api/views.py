@@ -33,7 +33,6 @@ class GenericAPIView(generics.GenericAPIView, mixins.ListModelMixin,
     #def delete(self):
         #return self.delete(request, id)
 
-
 class BookAPIView(APIView):
 
     def get(self, request):
